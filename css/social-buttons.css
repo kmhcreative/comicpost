@@ -1,0 +1,252 @@
+a.cp-share {
+	min-width: 50px;
+	border-radius:5px;
+	margin: 0 5px 5px 0;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+}
+	a.cp-share span {
+	 line-height: 20px;
+	 color: #fff;
+	 text-shadow: 1px 1px 1px #222;
+	 font-size: 10px;
+	 display: block;
+	 padding: 0 5px;
+	}
+	a.cp-share.bluesky {
+		background-color:#0085ff;
+	}
+	a.cp-share.tumblr{
+		background-color:#001935;
+	}
+	a.cp-share.mastodon{
+		background-color:#2f0c7a;
+	}
+	/*Facebook*/
+	a.cp-share.facebook {
+		background-color:#3B5998;
+	}
+	/* Threads */
+	a.cp-share.threads {
+		background-color:#000000;
+	}
+	/*LinkedIn*/
+	a.cp-share.linkedin {
+		background-color:#0e76a8;
+	}
+	/*Reddit*/
+	a.cp-share.reddit {
+		background-color:#CEE3F8;
+	}
+	/*Pinterest*/
+	a.cp-share.pinterest {
+		background-color:#C92228;
+	}
+	/*RSS*/
+	a.cp-share.rss-feed {
+		background-color:#F64C0B;
+	}
+	/* Email */
+	a.cp-share.cp-mail {
+		background-color:#333333;
+	}
+
+	.cp-sharethis.small a.cp-share {
+		background-position: center center;
+		background-repeat: no-repeat;
+		height: 16px;
+		width: 16px;
+		min-width: 16px;
+		border-radius: 0;
+		margin-left: 10px;
+	}
+	.cp-sharethis.small a.cp-share span { display: none;}
+	/* Bluesky */
+	.cp-sharethis.small a.cp-share.bluesky {
+		background-image: url('../images/social_icons/icons_small/bluesky.png');
+	}
+	/* Tumblr */
+	.cp-sharethis.small a.cp-share.tumblr {
+		background-image: url('../images/social_icons/icons_small/tumblr.png');
+	}
+	/* Mastodon */
+	.cp-sharethis.small a.cp-share.mastodon {
+		background-image: url('../images/social_icons/icons_small/mastodon.png');
+	}
+	/*Facebook*/
+	.cp-sharethis.small a.cp-share.facebook {
+		background-image: url('../images/social_icons/icons_small/facebook.png');
+	}
+	/*Threads*/
+	.cp-sharethis.small a.cp-share.threads {
+		background-image: url('../images/social_icons/icons_small/threads.png');
+	}
+	/*LinkedIn*/
+	.cp-sharethis.small a.cp-share.linkedin {
+		background-image: url('../images/social_icons/icons_small/linkedin.png');
+	}
+	/*Reddit*/
+	.cp-sharethis.small a.cp-share.reddit {
+		background-image: url('../images/social_icons/icons_small/reddit.png');
+	}
+	/*Pinterest*/
+	.cp-sharethis.small a.cp-share.pinterest {
+		background-image: url('../images/social_icons/icons_small/pinterest.png');
+	}
+	/*RSS*/
+	.cp-sharethis.small a.cp-share.rss-feed {
+		background-image: url('../images/social_icons/icons_small/rss.png');
+	}
+	/*Email*/
+	.cp-sharethis.small a.cp-share.cp-mail {
+		background-image: url('../images/social_icons/icons_small/email.png');
+	}
+
+	.cp-sharethis.medium a.cp-share {
+		background-position: center center;
+		background-repeat: no-repeat;
+		height: 24px;
+		width: 24px;
+		min-width: 24px;
+		border-radius: 0;
+	}
+	.cp-sharethis.medium a.cp-share span { display: none;}
+	/* Bluesky */
+	.cp-sharethis.medium a.cp-share.bluesky {
+		background-image: url('../images/social_icons/icons_medium/bluesky.png');
+	}
+	/* Tumblr */
+	.cp-sharethis.medium a.cp-share.tumblr {
+		background-image: url('../images/social_icons/icons_medium/tumblr.png');
+	}
+	/* Mastodon */
+	.cp-sharethis.medium a.cp-share.mastodon {
+		background-image: url('../images/social_icons/icons_medium/mastodon.png');
+	}
+	/*Facebook*/
+	.cp-sharethis.medium a.cp-share.facebook {
+		background-image: url('../images/social_icons/icons_medium/facebook.png');
+	}
+	/*Threads*/
+	.cp-sharethis.medium a.cp-share.threads {
+		background-image: url('../images/social_icons/icons_medium/threads.png');
+	}
+	/*LinkedIn*/
+	.cp-sharethis.medium a.cp-share.linkedin {
+		background-image: url('../images/social_icons/icons_medium/linkedin.png');
+	}
+	/*Reddit*/
+	.cp-sharethis.medium a.cp-share.reddit {
+		background-image: url('../images/social_icons/icons_medium/reddit.png');
+	}
+	/*Pinterest*/
+	.cp-sharethis.medium a.cp-share.pinterest {
+		background-image: url('../images/social_icons/icons_medium/pinterest.png');
+	}
+	/*RSS*/
+	.cp-sharethis.medium a.cp-share.rss-feed {
+		background-image: url('../images/social_icons/icons_medium/rss.png');
+	}	
+	/*Email*/
+	.cp-sharethis.medium a.cp-share.cp-mail {
+		background-image: url('../images/social_icons/icons_medium/email.png');
+	}
+	.cp-sharethis.large a.cp-share {
+		background-position: center center;
+		background-repeat: no-repeat;
+		height: 32px;
+		width: 32px;
+		min-width: 32px;
+		border-radius: 0;
+		box-shadow: none;
+	}
+	.cp-sharethis.large a.cp-share span { display: none;}
+	/* Bluesky */
+	.cp-sharethis.large a.cp-share.bluesky {
+		background-image: url('../images/social_icons/icons_large/bluesky.png');
+	}
+	/* Tumblr */
+	.cp-sharethis.large a.cp-share.tumblr {
+		background-image: url('../images/social_icons/icons_large/tumblr.png');
+	}
+	/* Mastodon */
+	.cp-sharethis.large a.cp-share.mastodon {
+		background-image: url('../images/social_icons/icons_large/mastodon.png');
+	}
+	/*Facebook*/
+	.cp-sharethis.large a.cp-share.facebook {
+		background-image: url('../images/social_icons/icons_large/facebook.png');
+	}
+	/*Threads*/
+	.cp-sharethis.large a.cp-share.threads {
+		background-image: url('../images/social_icons/icons_large/threads.png');
+	}
+	/*LinkedIn*/
+	.cp-sharethis.large a.cp-share.linkedin {
+		background-image: url('../images/social_icons/icons_large/linkedin.png');
+	}
+	/*Reddit*/
+	.cp-sharethis.large a.cp-share.reddit {
+		background-image: url('../images/social_icons/icons_large/reddit.png');
+	}
+	/*Pinterest*/
+	.cp-sharethis.large a.cp-share.pinterest {
+		background-image: url('../images/social_icons/icons_large/pinterest.png');
+	}
+	/*RSS*/
+	.cp-sharethis.large a.cp-share.rss-feed {
+		background-image: url('../images/social_icons/icons_large/rss.png');
+	}	
+	/*Email*/
+	.cp-sharethis.large a.cp-share.cp-mail {
+		background-image: url('../images/social_icons/icons_large/email.png');
+	}	
+	.cp-sharethis.label a.cp-share {
+		background-position: 3px center;
+		background-repeat: no-repeat;
+	}
+	.cp-sharethis.label a.cp-share span { 
+		padding-left: 25px;
+		line-height: 22px;
+	}
+	/* Twitter */
+	.cp-sharethis.label a.cp-share.bluesky {
+		background-image: url('../images/social_icons/icons_small/bluesky.png');
+	}
+	/* Tumblr */
+	.cp-sharethis.label a.cp-share.tumblr {
+		background-image: url('../images/social_icons/icons_small/tumblr.png');
+	}
+	/* Mastodon */
+	.cp-sharethis.label a.cp-share.mastodon {
+		background-image: url('../images/social_icons/icons_small/mastodon.png');
+	}
+	/*Facebook*/
+	.cp-sharethis.label a.cp-share.facebook {
+		background-image: url('../images/social_icons/icons_small/facebook.png');
+	}
+	/*Threads*/
+	.cp-sharethis.label a.cp-share.threads {
+		background-image: url('../images/social_icons/icons_small/threads.png');
+	}
+	/*LinkedIn*/
+	.cp-sharethis.label a.cp-share.linkedin {
+		background-image: url('../images/social_icons/icons_small/linkedin.png');
+	}
+	/*Reddit*/
+	.cp-sharethis.label a.cp-share.reddit {
+		background-image: url('../images/social_icons/icons_small/reddit.png');
+	}
+	/*Pinterest*/
+	.cp-sharethis.label a.cp-share.pinterest {
+		background-image: url('../images/social_icons/icons_small/pinterest.png');
+	}
+	/*RSS*/
+	.cp-sharethis.label a.cp-share.rss-feed {
+		background-image: url('../images/social_icons/icons_small/rss.png');
+	}
+	/*Email*/
+	.cp-sharethis.label a.cp-share.cp-mail {
+		background-image: url('../images/social_icons/icons_small/email.png');
+	}

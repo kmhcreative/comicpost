@@ -1,0 +1,503 @@
+	.comic-nav {
+		display: flex;
+		justify-content: space-between;
+	}
+	.comic-nav-base {
+		display: inline-block;
+		transition-duration: 0s;
+	}
+	.post-thumbnail {
+		z-index: 10 !important;
+	}
+	.comic.require-login {
+		background-color: white;
+		border: 2px solid red;
+	}
+		.comic.require-login p {
+			display: block;
+			box-sizing: border-box;
+			text-align: center;
+			padding: 50px;
+			word-wrap: normal;
+		}
+		
+	/* ComicPress/Comic Easel Nav Styles */
+	.comic-nav.box .comic-nav-base {
+		width: 44px;
+		padding-top: 44px;
+		margin: 0 5px;
+		font-size: 0.9em;
+		color: #555;
+		display: block;
+	}
+		.comic-nav.box .comic-nav-base:hover {
+			background-position: -44px 0;
+		}
+		.comic-nav.box .comic-nav-oldest {
+			background: url('../images/nav/box/first.png') no-repeat;
+		}
+		.comic-nav.box .comic-nav-first-chap {
+			background: url('../images/nav/box/firstin.png') no-repeat;
+		}
+		.comic-nav.box .comic-nav-previous {
+			background: url('../images/nav/box/prev.png') no-repeat;
+		}
+		.comic-nav.box .comic-nav-next {
+			background: url('../images/nav/box/next.png') no-repeat;
+		}
+		.comic-nav.box .comic-nav-last-chap {
+			background: url('../images/nav/box/lastin.png') no-repeat;
+		}
+		.comic-nav.box .comic-nav-newest {
+			background: url('../images/nav/box/last.png') no-repeat;
+		}
+		.comic-nav.box .comic-nav-void,
+		.comic-nav.box .comic-nav-void:hover {
+			color: #999;
+			background-position: -88px 0;
+		}
+		
+	.comic-nav.comical .comic-nav-base {
+		width: 44px;
+		padding-top: 44px;
+		margin: 0 5px;
+		font-size: 0.9em;
+		color: #555;
+		display: block;
+	}
+		.comic-nav.comical .comic-nav-base:hover {
+			background-position: -44px 0;
+		}
+		.comic-nav.comical .comic-nav-oldest {
+			background: url('../images/nav/comical/first.png') no-repeat;
+		}
+		.comic-nav.comical .comic-nav-first-chap {
+			background: url('../images/nav/comical/firstin.png') no-repeat;
+		}
+		.comic-nav.comical .comic-nav-previous {
+			background: url('../images/nav/comical/prev.png') no-repeat;
+		}
+		.comic-nav.comical .comic-nav-next {
+			background: url('../images/nav/comical/next.png') no-repeat;
+		}
+		.comic-nav.comical .comic-nav-last-chap {
+			background: url('../images/nav/comical/lastin.png') no-repeat;
+		}
+		.comic-nav.comical .comic-nav-newest {
+			background: url('../images/nav/comical/last.png') no-repeat;
+		}
+		.comic-nav.comical .comic-nav-void,
+		.comic-nav.comical .comic-nav-void:hover {
+			color: #999;
+			background-position: -88px 0;
+		}
+		
+	.comic-nav.npc .comic-nav-base {
+		width: 44px;
+		padding-top: 44px;
+		margin: 0 5px;
+		font-size: 0.9em;
+		color: #555;
+		display: block;
+	}
+		.comic-nav.npc .comic-nav-base:hover {
+			background-position: -44px 0;
+		}
+		.comic-nav.npc .comic-nav-oldest {
+			background: url('../images/nav/npc/first.png') no-repeat;
+		}
+		.comic-nav.npc .comic-nav-first-chap {
+			background: url('../images/nav/npc/firstin.png') no-repeat;
+		}
+		.comic-nav.npc .comic-nav-previous {
+			background: url('../images/nav/npc/prev.png') no-repeat;
+		}
+		.comic-nav.npc .comic-nav-next {
+			background: url('../images/nav/npc/next.png') no-repeat;
+		}
+		.comic-nav.npc .comic-nav-last-chap {
+			background: url('../images/nav/npc/lastin.png') no-repeat;
+		}
+		.comic-nav.npc .comic-nav-newest {
+			background: url('../images/nav/npc/last.png') no-repeat;
+		}
+		.comic-nav.npc .comic-nav-void,
+		.comic-nav.npc .comic-nav-void:hover {
+			color: #999;
+			background-position: -88px 0;
+		}
+		
+		
+	.comic-nav.scifi .comic-nav-base {
+		width: 60px;
+		padding-top: 60px;
+		margin: 0 5px;
+		font-size: 0.9em;
+		color: #555;
+		display: block;
+	}
+		.comic-nav.scifi .comic-nav-base:hover {
+			background-position: -60px 0;
+		}
+		.comic-nav.scifi .comic-nav-oldest {
+			background: url('../images/nav/scifi/prev-in.png') no-repeat;
+		}
+		.comic-nav.scifi .comic-nav-first-chap {
+			background: url('../images/nav/scifi/firstin.png') no-repeat;
+		}
+		.comic-nav.scifi .comic-nav-previous {
+			margin-right: 10px;
+			background: url('../images/nav/scifi/prev.png') no-repeat;
+		}
+		.comic-nav.scifi .comic-nav-next {
+			margin-left: 10px;
+			background: url('../images/nav/scifi/next.png') no-repeat;
+		}
+		.comic-nav.scifi .comic-nav-last-chap {
+			background: url('../images/nav/scifi/lastin.png') no-repeat;
+		}
+		.comic-nav.scifi .comic-nav-newest {
+			background: url('../images/nav/scifi/next-in.png') no-repeat;
+		}
+		.comic-nav.scifi .comic-nav-void,
+		.comic-nav.scifi .comic-nav-void:hover {
+			color: #999;
+			background-position: -120px 0;
+		}
+		
+	.comic-nav.silver .comic-nav-base {
+		width: 66px;
+		padding-top: 66px;
+		margin: 0;
+		font-size: 0.9em;
+		color: #555;
+		display: block;
+	}
+		.comic-nav.silver .comic-nav-base:hover {
+			background-position: -66px 0;
+		}
+		.comic-nav.silver .comic-nav-oldest {
+			background: url('../images/nav/silver/first.png') no-repeat;
+		}
+		.comic-nav.silver .comic-nav-first-chap {
+			background: url('../images/nav/silver/prevchap.png') no-repeat;
+		}
+		.comic-nav.silver .comic-nav-previous {
+			background: url('../images/nav/silver/prev.png') no-repeat;
+		}
+		.comic-nav.silver .comic-nav-next {
+			background: url('../images/nav/silver/next.png') no-repeat;
+		}
+		.comic-nav.silver .comic-nav-last-chap {
+			background: url('../images/nav/silver/nextchap.png') no-repeat;
+		}
+		.comic-nav.silver .comic-nav-newest {
+			background: url('../images/nav/silver/last.png') no-repeat;
+		}
+		.comic-nav.silver .comic-nav-void,
+		.comic-nav.silver .comic-nav-void:hover {
+			color: #999;
+			background-position: -132px 0;
+		}
+
+	/* Comic Chapters List Navigation */
+	ul.chapter-list > ul {
+		margin: 0;
+		padding: 0;
+	}
+		li.chapter-list-item {
+			display: grid;
+			width: 100%;
+		}
+			a.chapter-list-item-link {
+				display: flex;
+				justify-content: space-between;
+				text-decoration: none;
+				box-shadow: none !important;
+				border-bottom: 1px solid #ccc;
+				padding-top: 10px;
+				height: 100%;
+			}
+				a.chapter-list-item-link:hover {
+					box-shadow: none !important;
+					background-color: rgba(128,128,128,.05);
+				}
+		li.chapter-list-item.elements-1 a.chapter-list-item-link > span {
+			width: 100%;
+			padding-top: 26px;
+		}
+		li.chapter-list-item.elements-2 a.chapter-list-item-link > span {
+			width: 50%;
+		}
+		li.chapter-list-item.elements-3 a.chapter-list-item-link > span {
+			width: 33%;
+		}
+		li.chapter-list-item.elements-4 a.chapter-list-item-link > span {
+			width: 25%;
+		}
+		li.chapter-list-item.elements-5 a.chapter-list-item-link > span {
+			width: 20%;
+		}
+		li.chapter-list-item.elements-6 a.chapter-list-item-link > span {
+			width: 16.6%;
+		}
+				a.chapter-list-item-link span {
+					display: inline-block;
+					min-height: 75px;
+					overflow: hidden;
+					text-overflow: ellipsis;
+				}
+				img.chapter-thumbnail {
+					height: 72px;
+					width: 72px;
+					box-shadow: none !important;
+				}
+					.chapter-title {
+						font-size: inherit;
+						font-weight: bold;
+						color: inherit;
+						margin-left: 10px;
+					}
+					.chapter-postdate {
+						font-size: smaller;
+						color: #666;
+					}
+					.chapter-comments {
+						font-size: smaller;
+						color: #666;
+						text-align: right;
+					}
+						.chapter-comments::after {
+							content: ' Comments';
+						}
+						li.chapter-list-item.elements-6 .chapter-comments::after {
+							content: '\f101';
+							font-family: dashicons;
+						}
+					.chapter-description {
+						font-size: inherit;
+						color: inherit;
+						text-align: right;
+					}
+					.chapter-rating {
+						font-size: inherit;
+						color: inherit;
+						text-align: center;
+					}
+						.chapter-rating .star-ratings {
+							position: relative;
+							display: inline-block;
+							font-size: 14px;	
+							width: fit-content;					
+						}
+							.chapter-rating .star-ratings .empty-rating {
+								position: relative;
+								display: block;
+								width: 100%;
+								white-space: nowrap;
+							}
+								.chapter-rating .star-ratings .empty-rating::before {
+									content: '\f154\f154\f154\f154\f154';
+									font-family: dashicons;
+								}
+							.chapter-rating .star-ratings .full-rating {
+								position: absolute;
+								display: block;
+								width: 0%;
+								top:  0;
+								left: 0;
+								white-space: nowrap;
+								overflow: hidden;
+								text-overflow: clip;
+							}
+								.chapter-rating .star-ratings .full-rating::before {
+									content: '\f155\f155\f155\f155\f155';
+									font-family: dashicons;
+								}
+						
+						li.chapter-list-item.elements-6 .chapter-rating .rating-text {
+							display: inline;
+							font-size: smaller;
+							color: #999;
+						}
+						li.chapter-list-item.elements-6 .chapter-rating .star-ratings .empty-rating::before {
+							content: '\f154';
+						}
+						li.chapter-list-item.elements-6 .chapter-rating .star-ratings .full-rating::before {
+							content: '\f155';
+						}
+						
+						.chapter-rating .like-ratings.rating-text {
+							font-size: 14px;
+							margin-left: 20px;
+							text-align: left;
+							width: 100%;
+						}
+						.chapter-rating .like-ratings.rating-text::before {
+							content: '\f487';
+							font-family: dashicons;
+							font-size: inherit;
+							vertical-align: middle;
+							position: relative;
+							top: -2px;
+							padding: 3px;
+							color: inherit;
+							border-radius: 100%;
+							margin-right: 5px;
+						}
+							.chapter-rating .like-ratings.rating-text.like-style-like::before {
+								content: '\f529';
+								color: white;
+								background-color: dodgerblue;
+							}
+							.chapter-rating .like-ratings.rating-text.like-style-love::before {
+								content: '\f487';
+								color: white;
+								background-color: red;
+							}
+							.chapter-rating .like-ratings.rating-text.like-style-star::before {
+								content: '\f155';
+								color: white;
+								background-color: orange;
+							}
+		li.chapter-list-item > ul {
+			margin: 0;
+			padding: 0;
+		}
+		li.chapter-list-item.list-style-indent > ul {
+			margin-left: 20px;
+		}
+		.user-stars::after {
+			content: '\f155';
+			font-family: dashicons;
+		}
+		.user-likes-title::before {
+			font-family: dashicons;
+			font-size: inherit;
+			vertical-align: middle;
+			position: relative;
+			top: -2px;
+			padding: 3px;
+			border-radius: 100%;
+			margin-right: 5px;
+		}
+			.user-likes-title.like-style-like::before {
+				content: '\f529';
+				color: white;
+				background-color: dodgerblue;
+			}
+			.user-likes-title.like-style-love::before {
+				content: '\f487';
+				color: white;
+				background-color: red;
+			}
+			.user-likes-title.like-style-star::before {
+				content: '\f155';
+				color: white;
+				background-color: orange;
+			}
+			/* empty placeholder user lists */
+			h2.user-likes-title.empty.placeholders::after {
+				content: '(You have not liked any comics yet)';
+				font-size: inherit;
+				font-weight: normal;
+				font-style: italic;
+				padding-left: 20px;
+				vertical-align: middle;
+			}
+			ul.liked-comics-list.empty.placeholders {
+				opacity: .2;
+			}
+				ul.liked-comics-list.empty.placeholders li .thumbnail {
+					display: inline-block;
+					background-color: #666;
+					height: 150px;
+					width:  150px;
+					border: 2px dashed black;
+				}
+				ul.liked-comics-list.empty.placeholders li .title {
+					display: inline-block;
+					height: 24px;
+					width: 50%;
+					background-color: #666;
+				}
+			h2.user-comments-title.placeholders::after {
+				content: '(You have not commented on anything yet)';
+				font-size: inherit;
+				font-weight: normal;
+				font-style: italic;
+				padding-left: 20px;
+				vertical-align: middle;
+			}
+			ul.user-comments-list.empty.placeholders {
+				opacity: .2;
+			}
+				ul.user-comments-list.empty.placeholders li .title {
+					display: inline-block;
+					height: 24px;
+					width: 50%;
+					background-color: #666;
+				}
+			h2.user-ratings-title.empty.placeholders::after {
+				content: '(You have not rated any comics yet)';
+				font-size: inherit;
+				font-weight: normal;
+				font-style: italic;
+				padding-left: 20px;
+				vertical-align: middle;
+			}
+			ul.user-ratings-list.empty.placeholders {
+				opacity: .2;
+			}
+				ul.user-ratings-list.empty.placeholders li .thumbnail {
+					display: inline-block;
+					background-color: #666;
+					height: 150px;
+					width:  150px;
+					border: 2px dashed black;
+				}
+				ul.user-ratings-list.empty.placeholders li .title {
+					display: inline-block;
+					height: 24px;
+					width: 50%;
+					background-color: #666;
+				}
+/*
+ * Comic with Widgets Around It
+ * =============================
+*/
+.comicpost-wrap.widgetized .middleflex {
+	display: flex;
+	justify-content: space-between;
+}
+	.comicpost-wrap.widgetized .widget {
+		padding: 0;
+	}
+	.comicpost-wrap.widgetized .over-comic {
+		text-align: center;
+	}
+	.comicpost-wrap.widgetized .comic {
+		flex-grow: 1;
+	}
+	.comicpost-wrap.widgetized .under-comic {
+		text-align: center;
+	}
+
+		
+/* Disable printing of any elements tagged .noprint but preserve layout */
+@media print {
+	*.noprint {
+		visibility: hidden !important;
+		color: transparent !important;
+		background: none !important;
+	}
+		*.noprint::before {
+			content: '(this content could not be printed)' !important;
+			font-size: inherit;
+			font-weight: bold;
+			display: block;
+			text-align: center;
+			color: darkred;
+			visibility: visible;
+		}
+}

@@ -1,0 +1,49 @@
+/* These are not really meant to be web fonts */
+
+@font-face {
+    font-family: 'BlackOpsOne';
+    src: url('black-ops-one/BlackOpsOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Cascadia';
+    src: url('cascadia-code/Cascadia.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'LiberationSansBold';
+    src: url('liberation-sans/LiberationSans-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SarinaRegular';
+    src: url('sarina/Sarina-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Tiza';
+    src: url('tiza/tiza.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Unitblock';
+    src: url('unitblock-font/Unitblock.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}

@@ -1,0 +1,194 @@
+/* 	RATINGS STYLESHEET
+	==================
+	If you are using five-star ratings or
+	Likes this stylesheet puts them on the
+	comic posts.
+*/
+
+/* Star Rating Average */
+.rating-stars {
+	position: relative;
+	display: inline-block;
+	font-size: 20px;
+	vertical-align: middle;
+	margin-top: -3px;
+	width: fit-content;
+}
+	.rating-stars span {
+		display: block;
+	}
+	.rating-empty {
+		position: relative;
+		white-space: nowrap;
+		text-overflow: clip;
+	}
+		.rating-empty::before {
+			content: '\f154\f154\f154\f154\f154';
+			font-family: dashicons;
+		}
+	.rating-full {
+		position: absolute;
+		top:  0;
+		left: 0;
+		width: 0%;
+		white-space: nowrap;
+		text-overflow: clip;
+		overflow: hidden;
+	}
+		.rating-full::before {
+			content: '\f155\f155\f155\f155\f155';
+			font-family: dashicons;
+		}
+
+/* Star Ratings in Comments */
+.comments-rating {
+  border: none;
+  padding: 0;
+  margin-left: 0;
+}
+
+.comments-rating label {
+  display: inline-block;
+}
+
+.rating-container {
+  font-size: 0;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+}
+
+.rating-container * {
+  font-size: 1.4rem;
+}
+
+.rating-container > input {
+  display: none;
+}
+
+.rating-container > input + label {
+  /* only enough room for the star */
+  font-family: 'dashicons';
+  display: inline-block;
+  overflow: hidden;
+  text-indent: 9999px;
+  width: 1em;
+  white-space: nowrap;
+  cursor: pointer;
+  margin: 0;
+}
+
+.rating-container > input + label:before {
+  display: inline-block;
+  text-indent: -9999px;
+  content: "\f154";
+  color: #888;
+}
+
+.rating-container > input:checked ~ label:before,
+.rating-container > input + label:hover ~ label:before,
+.rating-container > input + label:hover:before {
+  content: "\f155";
+  color: #e52;
+  text-shadow: 0 0 1px #333;
+}
+
+.rating-container > .star-cb-clear + label {
+  text-indent: -9999px;
+  width: .5em;
+  margin-left: -.5em;
+}
+
+.rating-container > .star-cb-clear + label:before {
+  width: .5em;
+}
+
+.rating-container:hover > input + label:before {
+  content: "\f154";
+  color: #888;
+  text-shadow: none;
+}
+
+.rating-container:hover > input + label:hover ~ label:before,
+.rating-container:hover > input + label:hover:before {
+  content: "\f155";
+  color: #e52;
+  text-shadow: 0 0 1px #333;
+}
+
+.comment-respond .rating-container > .star-cb-clear + label, .comment-respond .rating-container > input + label:before {
+  text-indent: 9999px;
+}
+
+.comment-respond .rating-container > input + label {
+  text-indent: -9999px;
+}
+
+/* Like Button in Post */
+.comicpost-likes-block {
+
+}
+	.comicpost-likes-block .like-description {
+	
+	
+	}
+		.comicpost-likes-block .like-description::before {
+			content: '\f487';		/* default is heart */
+			font-family: dashicons;
+			font-size: large;
+			vertical-align: middle;
+			position: relative;
+			top: -2px;
+			padding: 5px;
+			color: inherit;
+			border-radius: 100%;
+			margin-right: 5px;
+		}
+		.comicpost-likes-block.like-style-love .like-description::before {
+			content: '\f487';
+			color: white;
+			background-color: red;
+		}
+		.comicpost-likes-block.like-style-like .like-description::before {
+			content: '\f529';
+			color: white;
+			background-color: dodgerblue;
+		}
+		.comicpost-likes-block.like-style-star .like-description::before {
+			content: '\f155';
+			color: white;
+			background-color: orange;
+		}
+	.comicpost-likes-block button {
+	
+	}
+		.comicpost-likes-block button.button-like {
+		
+		}
+		.comicpost-likes-block button.button-unlike {
+		
+		}
+			.comicpost-likes-block button .like-value {
+			
+			}
+				.comicpost-likes-block button .like-value::before {
+					content: '\f487';
+					font-family: dashicons;
+					font-size: x-large;
+					vertical-align: middle;
+					padding-right: 5px;
+					position: relative;
+					top: -2px;
+				}
+				.comicpost-likes-block.like-style-love button .like-value::before {
+					content: '\f487';
+				}
+				.comicpost-likes-block.like-style-like button .like-value::before {
+					content: '\f529';
+				}
+					.comicpost-likes-block.like-style-like button.button-unlike .like-value::before {
+						content: '\f542';
+					}
+				.comicpost-likes-block.like-style-star button .like-value::before {
+					content: '\f155';
+				}
